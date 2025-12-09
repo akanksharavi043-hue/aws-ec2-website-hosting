@@ -71,10 +71,14 @@ http://<public-ip>/index.html
 -Deploying static websites
 
 
+
 🧑‍💻 Author
+
 Akanksha Ravi
 
+
 Feel free to explore or recreate the setup!
+
 ***END***
 
 
