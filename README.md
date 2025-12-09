@@ -51,9 +51,25 @@ Apache setup, and security group configuration.
 
 🔹 Issue: Website worked only with /index.html
 
-Cause: browser cache
-Solution: manually open
+✔ Cause: browser cache
+✔ Solution: manually open
 http://<public-ip>/index.html
+
+📚 What I Learned
+
+-Basics of web hosting on AWS EC2
+-Linux directory navigation
+-Apache installation & configuration
+-Security groups (inbound rules)
+-Debugging server issues
+-Deploying static websites
+
+
+🧑‍💻 Author
+Akanksha Ravi
+
+Feel free to explore or recreate the setup!
+***END***
 
 ## 📁 Project Structure
 
