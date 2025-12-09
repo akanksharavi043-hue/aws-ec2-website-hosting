@@ -5,6 +5,7 @@ AWS EC2 instance using **Amazon Linux** and the **Apache Web Server**.
 This project demonstrates how I hosted two different static websites on an AWS EC2 instance:
 
 1️⃣ My own custom static welcome page (written manually in HTML)
+
 2️⃣ A professional template website (2095_level) downloaded and hosted using Apache
 
 This was my first hands-on experience with cloud computing, Linux commands,
@@ -58,10 +59,15 @@ http://<public-ip>/index.html
 📚 What I Learned
 
 -Basics of web hosting on AWS EC2
+
 -Linux directory navigation
+
 -Apache installation & configuration
+
 -Security groups (inbound rules)
+
 -Debugging server issues
+
 -Deploying static websites
 
 
@@ -71,5 +77,4 @@ Akanksha Ravi
 Feel free to explore or recreate the setup!
 ***END***
 
-## 📁 Project Structure
 
