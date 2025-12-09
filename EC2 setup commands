@@ -1,0 +1,46 @@
+# Update packages on Amazon Linux
+sudo yum update -y
+
+# Install Apache web server
+sudo yum install -y httpd
+
+# Start Apache service
+sudo systemctl start httpd
+
+# Enable Apache to start on reboot
+sudo systemctl enable httpd
+
+#Install wget: a command line file downloader used to download files from the internet directly onto your EC2 instance 
+sudo yum install -y wget
+
+#then paste the url of the website template you want to download
+wget https://url
+
+#ls -lrt : shows files from oldest to newest with full detail
+#file <filename>: to check the type of file
+#unzip <filename.zip> : to unzip the files
+
+#WEBSITE DEPLOYMENT COMMANDS
+#Navigate to the web server root directory
+cd /var/www/html
+
+#Remove old files
+sudo rm -rf /var/www/html/*
+
+#Copy new website template
+sudo cp -r ~/<directory-name>/<filename>/* /var/www/html/
+
+#Check if files were copied
+ls -l /var/www/html
+
+#Restart apache to apply changes
+sudo systemctl restart httpd
+
+#You can either run using the public IP or manually 
+http://<public-ip>/index.html
+
+
+
+
+
+
