@@ -70,10 +70,14 @@ http://<public-ip>/index.html
 
 -Deploying static websites
 
+🧾 Summary
+
+First, I created my own custom static webpage to verify Apache and EC2 configuration.
+Then I downloaded, extracted, and deployed a professional static website template using Apache on Amazon Linux.
+This project helped me understand hosting, Linux file structure, permissions, and real AWS workflow.
 
 
 🧑‍💻 Author
-
 Akanksha Ravi
 
 
